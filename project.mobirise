@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "NewSite-05-21_1940",
-    "currentPage": "bienvenido.html",
+    "currentPage": "index.html",
     "theme": {
       "name": "mobirise3",
       "title": "Mobirise 3",
@@ -22,7 +22,7 @@
       }
     },
     "versionFirst": "3.12.1",
-    "uniqCompNum": 16,
+    "uniqCompNum": 24,
     "versionPublish": "3.12.1",
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png",
@@ -30,208 +30,6 @@
     "noImageResize": ""
   },
   "pages": {
-    "bienvenido.html": {
-      "settings": {
-        "main": true,
-        "title": "",
-        "meta_descr": "",
-        "header_custom": "",
-        "footer_custom": "",
-        "html_before": ""
-      },
-      "components": [
-        {
-          "_inherit": "menu",
-          "_tags": [
-            "Theme"
-          ],
-          "_styles": {
-            ".hide-buttons .nav-btn": {
-              "display": "none !important"
-            },
-            ".navbar-caption": {
-              "color": "#ffffff"
-            },
-            ".navbar-toggler": {
-              "color": "#ffffff"
-            },
-            ".close-icon::before, .close-icon::after": {
-              "background-color": "#ffffff"
-            },
-            ".link, .dropdown-item": {
-              "color": "#ffffff"
-            },
-            ".link": {
-              "font-size": "1.2rem"
-            },
-            ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "1.300rem"
-            },
-            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#b71225"
-            },
-            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#d7162b!important"
-            },
-            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#e5172e"
-            },
-            ".bg-color.transparent .link": {
-              "color": "#ffffff",
-              "transition": "none"
-            },
-            ".bg-color.transparent.opened .link": {
-              "transition": "color .2s ease-in-out"
-            },
-            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
-              "color": "@primaryColor"
-            },
-            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
-              "color": "#cccccc!important"
-            }
-          },
-          "_name": "ext.menu",
-          "_anchor": "ext_menu-0",
-          "_params": {
-            "bgColor": "#e5172e",
-            "fontSize": "1.2",
-            "fontName": {},
-            "fontColor": "#ffffff",
-            "fontHoverColor": "@primaryColor",
-            "transparent": false,
-            "sticky": false,
-            "logo": false,
-            "showBrand": false,
-            "collapsed": true,
-            "hideButtons": false
-          },
-          "logo": {
-            "image": {
-              "active": true,
-              "src": "@THEME_PATH@/components/_images/logo.png",
-              "height": 128,
-              "alt": "Mobirise",
-              "link": "https://mobirise.com"
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-menu",
-              "link": "https://mobirise.com",
-              "size": 0
-            }
-          },
-          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
-          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"barramovil.html\">BARRA MÓVIL</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">HACER MI PEDIDO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"#top\">DESCARGAR LISTA DE PRECIOS</a></li>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "msg-box5",
-          "_anchor": "msg-box5-2",
-          "_params": {
-            "imageSize": "52",
-            "paddingTop": "4",
-            "paddingBottom": "2",
-            "parallax": true,
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#e5172e",
-            "bgColorRadio": true,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "bgVideoRadio": false,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#fff",
-            "inverse": false,
-            "showTitle": false,
-            "showText": false,
-            "showButtons": false
-          },
-          "media": {
-            "image": {
-              "active": true,
-              "width": 1400,
-              "src": "@PROJECT_PATH@/assets/images/perfil-1400x1400.png",
-              "link": "",
-              "alt": "",
-              "title": "",
-              "linkInNewWindow": false
-            },
-            "video": {
-              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
-              "aspectratio": "16:9",
-              "autoplay": false,
-              "loop": false
-            },
-            "iconFont": {
-              "class": "mbr-iconfont mbr-iconfont-msg-box5",
-              "link": "",
-              "size": 0
-            }
-          },
-          "title": "SOLID COLOR INTRO WITH IMAGE",
-          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
-          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
-        },
-        {
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "footer1",
-          "_styles": {
-            "P": {
-              "color": "#ffffff"
-            }
-          },
-          "_anchor": "footer1-4",
-          "_params": {
-            "paddingTop": "2",
-            "paddingBottom": 2,
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
-            "bgColor": "#e5172e",
-            "bgColorRadio": true,
-            "overlay": true,
-            "overlayOpacity": 0.8,
-            "overlayColor": "#444444"
-          },
-          "text": "Copyright (c) 2017 Drinks &amp; Co."
-        },
-        {
-          "_inherit": "social-buttons2",
-          "_styles": {
-            ".mbr-section-title, .btn-social": {
-              "color": "#fff"
-            }
-          },
-          "_tags": [
-            "Theme"
-          ],
-          "_name": "social-buttons4",
-          "_anchor": "social-buttons4-7",
-          "_params": {
-            "paddingTop": "0",
-            "paddingBottom": "1",
-            "bgImageRadio": false,
-            "parallax": true,
-            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
-            "bgColor": "#e5172e",
-            "bgColorRadio": true,
-            "overlay": false,
-            "overlayOpacity": 0.5,
-            "overlayColor": "#222"
-          },
-          "text": "Seguinos",
-          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/DrinksAndCoo/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/drinksandco_ok\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      "
-        }
-      ]
-    },
     "barramovil.html": {
       "settings": {
         "title": "Website Maker Title",
@@ -564,6 +362,208 @@
             "overlayColor": "#222"
           },
           "text": "Seguinos!",
+          "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/DrinksAndCoo/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/drinksandco_ok\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      "
+        }
+      ]
+    },
+    "index.html": {
+      "settings": {
+        "main": true,
+        "title": "",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": ""
+      },
+      "components": [
+        {
+          "_inherit": "menu",
+          "_tags": [
+            "Theme"
+          ],
+          "_styles": {
+            ".hide-buttons .nav-btn": {
+              "display": "none !important"
+            },
+            ".navbar-caption": {
+              "color": "#ffffff"
+            },
+            ".navbar-toggler": {
+              "color": "#ffffff"
+            },
+            ".close-icon::before, .close-icon::after": {
+              "background-color": "#ffffff"
+            },
+            ".link, .dropdown-item": {
+              "color": "#ffffff"
+            },
+            ".link": {
+              "font-size": "1.2rem"
+            },
+            ".dropdown-item, .nav-dropdown-sm .link": {
+              "font-size": "1.300rem"
+            },
+            ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-menu": {
+              "background": "#b71225"
+            },
+            ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
+              "background": "#d7162b!important"
+            },
+            ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
+              "background": "#e5172e"
+            },
+            ".bg-color.transparent .link": {
+              "color": "#ffffff",
+              "transition": "none"
+            },
+            ".bg-color.transparent.opened .link": {
+              "transition": "color .2s ease-in-out"
+            },
+            ".bg-color.transparent.opened .link:hover, .bg-color.transparent.opened .link:focus": {
+              "color": "@primaryColor"
+            },
+            ".link[aria-expanded=\"true\"], .dropdown-item[aria-expanded=\"true\"]": {
+              "color": "#cccccc!important"
+            }
+          },
+          "_name": "ext.menu",
+          "_anchor": "ext_menu-0",
+          "_params": {
+            "bgColor": "#e5172e",
+            "fontSize": "1.2",
+            "fontName": {},
+            "fontColor": "#ffffff",
+            "fontHoverColor": "@primaryColor",
+            "transparent": false,
+            "sticky": false,
+            "logo": false,
+            "showBrand": false,
+            "collapsed": true,
+            "hideButtons": false
+          },
+          "logo": {
+            "image": {
+              "active": true,
+              "src": "@THEME_PATH@/components/_images/logo.png",
+              "height": 128,
+              "alt": "Mobirise",
+              "link": "https://mobirise.com"
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-menu",
+              "link": "https://mobirise.com",
+              "size": 0
+            }
+          },
+          "brand": "<a class=\"navbar-caption\" data-app-btn=\"true\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\" data-app-placeholder=\"Type Brand Name\">MOBIRISE</a>",
+          "items": "<li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"barramovil.html\">BARRA MÓVIL</a></li><li class=\"nav-item\"><a data-app-btn=\"true\" class=\"nav-link link\" href=\"page2.html\">HACER MI PEDIDO</a></li><li class=\"nav-item nav-btn\"><a data-app-btn=\"true\" data-button=\"\" data-app-selector=\".btn\" class=\"nav-link btn btn-white btn-white-outline\" href=\"#top\">DESCARGAR LISTA DE PRECIOS</a></li>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "msg-box5",
+          "_anchor": "msg-box5-2",
+          "_params": {
+            "imageSize": "52",
+            "paddingTop": "4",
+            "paddingBottom": "2",
+            "parallax": true,
+            "bgImageRadio": false,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#e5172e",
+            "bgColorRadio": true,
+            "bgVideo": {
+              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
+            },
+            "bgVideoRadio": false,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#fff",
+            "inverse": false,
+            "showTitle": false,
+            "showText": false,
+            "showButtons": false
+          },
+          "media": {
+            "image": {
+              "active": true,
+              "width": 1400,
+              "src": "@PROJECT_PATH@/assets/images/perfil-1400x1400.png",
+              "link": "",
+              "alt": "",
+              "title": "",
+              "linkInNewWindow": false
+            },
+            "video": {
+              "src": "https://www.youtube.com/embed/Tq7p44IA-1U",
+              "aspectratio": "16:9",
+              "autoplay": false,
+              "loop": false
+            },
+            "iconFont": {
+              "class": "mbr-iconfont mbr-iconfont-msg-box5",
+              "link": "",
+              "size": 0
+            }
+          },
+          "title": "SOLID COLOR INTRO WITH IMAGE",
+          "text": "Solid color intro with an image on the right side. Also this block has no paddings.",
+          "buttons": "<a data-app-btn=\"true\" class=\"btn btn-primary\" href=\"https://mobirise.com\">MORE</a>"
+        },
+        {
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "footer1",
+          "_styles": {
+            "P": {
+              "color": "#ffffff"
+            }
+          },
+          "_anchor": "footer1-4",
+          "_params": {
+            "paddingTop": "2",
+            "paddingBottom": 2,
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
+            "bgColor": "#e5172e",
+            "bgColorRadio": true,
+            "overlay": true,
+            "overlayOpacity": 0.8,
+            "overlayColor": "#444444"
+          },
+          "text": "Copyright (c) 2017 Drinks &amp; Co."
+        },
+        {
+          "_inherit": "social-buttons2",
+          "_styles": {
+            ".mbr-section-title, .btn-social": {
+              "color": "#fff"
+            }
+          },
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "social-buttons4",
+          "_anchor": "social-buttons4-7",
+          "_params": {
+            "paddingTop": "0",
+            "paddingBottom": "1",
+            "bgImageRadio": false,
+            "parallax": true,
+            "bgImage": "@THEME_PATH@/components/_images/landscape3.jpg",
+            "bgColor": "#e5172e",
+            "bgColorRadio": true,
+            "overlay": false,
+            "overlayOpacity": 0.5,
+            "overlayColor": "#222"
+          },
+          "text": "Seguinos",
           "icons": " <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Facebook\" target=\"_blank\" href=\"https://www.facebook.com/DrinksAndCoo/\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-facebook\"></i></a>   <a data-app-btn=\"true\" class=\"btn btn-social\" title=\"Instagram\" target=\"_blank\" href=\"https://instagram.com/drinksandco_ok\" data-toolbar=\"-mbrBtnAdd,-mbrBtnMove,-mbrFonts,-mbrFontSize,-mbrBtnColor\"><i class=\"socicon socicon-instagram\"></i></a>      "
         }
       ]
